@@ -13,9 +13,9 @@ from your Wii U.
  -- Configuration --
  ===================
 
-This application should be hosted on a web server and accessible to your Wii U
-either on a LAN or at a remote address. This application allows a user to
-upload files to you server or drive. You should consider whether or not you
+This application should be hosted on a web server and made accessible to your
+Wii U either on a LAN or at a remote address. This application allows a user to
+upload files to your server or drive. You should consider whether or not you
 are comfortable with anonymous users uploading files before you make the
 application publicly accessible. I recommend that you host this application
 using https and that you protect access to it with credentials. The application
@@ -45,3 +45,7 @@ assign an explicit name to the screenshot. Do not include the file extension.
 It is often necessary that the "Rename" field be used due to screenshots from
 some games having a common name. The application will not overwrite an existing
 screenshot.
+
+Some games do not allow you to take a screenshot. If you attempt to take a
+screenshot while playing one of these games you will see a message indicating
+that there are no available files to select.

@@ -29,15 +29,16 @@
 </head>
 
 <body>
+<p>
 <form style="border: 1px solid #000; padding: 10px" enctype="multipart/form-data" action="saveWiiUSS.php" method="POST">
 <input type="hidden" name="MAX_FILE_SIZE" value="10000000"/>
 Top Image <input name="topimg" type="file"/> <span style="color:ff0000"> *</span>
-<br style="margin-bottom:20px;"/>
+</p><p>
 Bottom Image <input name="bottomimg" type="file"/>
-<br style="margin-bottom:20px;"/>
+</p><p>
 Rename 
 <input name="filerename" type="input"/>
-<br style="margin-bottom:20px;"/>
+</p><p>
 <select name="gameSelect">
 <option value="">- Select Game -
 <?php
@@ -61,7 +62,7 @@ for($i = 0; $i < $c; $i++)
 ?>
 </select>
 Other <input name="game" type="input"/>
-<br style="margin-bottom:20px;"/>
+</p>
 <input type="submit" value="Go"/>
 </form>
 </body>

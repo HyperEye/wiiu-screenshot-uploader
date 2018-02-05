@@ -32,7 +32,7 @@
 <p>
 <form style="border: 1px solid #000; padding: 10px" enctype="multipart/form-data" action="saveWiiUSS.php" method="POST">
 <input type="hidden" name="MAX_FILE_SIZE" value="10000000"/>
-Top Image <input name="topimg" type="file"/> <span style="color:ff0000"> *</span>
+Top Image <input name="topimg" type="file"/> <font color="ff0000"> *</font>
 </p><p>
 Bottom Image <input name="bottomimg" type="file"/>
 </p><p>
